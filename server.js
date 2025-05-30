@@ -13,8 +13,6 @@ const MIME_TYPES = {
     js: "application/javascript; charset=utf-8",
     png: "image/png",
     jpg: "image/jpeg",
-    gif: "image/gif",
-    ico: "image/x-icon",
     svg: "image/svg+xml",
 };
 
