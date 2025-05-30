@@ -31,7 +31,7 @@ function onrequest(req, res) {
     } else if (url === "/styles/404.css") {
         reqPath = "/styles/404.css";
     } else if (url.startsWith("/product.html")) {
-        reqPath = "/Pages/product.html";
+        reqPath = "/pages/product.html";
     } else if (url === "/scripts/product.js") {
         reqPath = "/scripts/product.js";
     } else if (url === "/styles/product.css") {

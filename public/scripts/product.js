@@ -12,6 +12,7 @@ window.onload = function() {
     fetch(`https://dummyjson.com/products/${productId}`) 
         .then(res => res.json())
         .then(product => {
+            document.title = product.title;
             productInfo.innerHTML = `
                 <img src="${product.thumbnail}" alt="${product.title}" class="product-image-detail">
                 <h2>${product.title}</h2>
